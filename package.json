@@ -1,9 +1,10 @@
 {
   "name": "react-portfolio-template",
+  "homepage": "https://CorsaRusso.github.io/graphic-design-website",
   "private": true,
   "description": "Portfolio Template For Awesome Peoples",
   "version": "0.1.0",
-  "author": "Chetan Verma <hello@chetanverma.com>",
+  "author": "Justin Gu",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
@@ -15,6 +16,7 @@
     "gatsby-plugin-smoothscroll": "^1.2.0",
     "gatsby-source-filesystem": "^2.5.0",
     "gatsby-transformer-sharp": "^2.6.0",
+    "gh-pages": "^3.2.3",
     "node-sass": "^4.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -31,6 +33,8 @@
   ],
   "license": "0BSD",
   "scripts": {
+    "predeploy": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
