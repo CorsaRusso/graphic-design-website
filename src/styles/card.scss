@@ -28,7 +28,9 @@
     }
 
     .btn {
-      background-color: black;
+      border-radius: 5ch;
+      border: 1px;
+      border-color: white;
       color: white;
       padding: 10px;
       text-decoration: none;
@@ -36,6 +38,7 @@
     &:hover {
       opacity: 1;
       transform: translate(0, 0px);
+      background-color: rgba(0, 0, 0, 0.596);
     }
   }
 }

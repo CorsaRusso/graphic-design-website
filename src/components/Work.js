@@ -6,6 +6,7 @@ import data from "../yourdata"
 
 const Work = () => {
   return (
+    <div style={{justifyContent:"center"}}>
     <div className="section" id="work">
       <div className="container">
         <div className="work-wrapper">
@@ -27,8 +28,22 @@ const Work = () => {
             </Fade>
           </div>
         </div>
+        <Fade bottom>
+            <a 
+              href="https://www.youtube.com/" target="_blank"
+              className="primary-btn2"
+            >
+              SEE MORE
+            </a>
+    </Fade>
       </div>
+
     </div>
+
+
+    </div>
+    
+    
   )
 }
 

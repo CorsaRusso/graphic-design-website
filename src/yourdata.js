@@ -11,91 +11,94 @@ import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import linkedin from "./images/linkedin.svg"
+import leroi from "./images/leroi.png"
+import sixbits from "./images/6ixBits.png"
+import about from "./images/about.png"
+import infocus from"./images/infocus.png"
+import isometric from"./images/isometric.jpg"
+import intel from"./images/intel.png"
+import global from"./images/Global_dev.jpg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Justin Gu",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "I make branding,",
     //Line 2 For Header
-    "products, brands,",
+    "graphic design,",
     //Line 3 For Header
-    "and experience",
+    "and cool projects.",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Check out some of my work below:",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "itsjustingu@gmail.com",
 
   // End Header Details -----------------------
 
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "6ixBits Hackathon", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Designed and branded the Hackathon 6ixBits by the Toronto Youth Network. Created branding, sponsorship packages, and social media posts using Illustrator, Indesign, and Photoshop.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: sixbits,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://torontoyouthnetwork.com/6ixbits",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "LeRoi Robotics", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Edited and created an infographic video for my robotics team. Used Illustrator to create the designs, and animatedthe animations with After Effects.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: leroi,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://www.youtube.com/watch?v=53xpT4EiF6M&ab_channel=LeoXie",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Global Development Engineering Club", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Created social media posts for specific weekly design challenges using Photoshop. New designs were created every week.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        global,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://www.instagram.com/str.globaldev/",
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Intel Inspires Design Contest", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "I was the winner of Intel Inspires: a contest hosted by AVGL and sponsored by Intel and MSI. I created a design for a T-Shirt using Photoshop and send several mock-ups to the judges.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: intel,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://avgl.org/intel-inspires",
     },
     {
-      title: "Project Five", //Project Title - Add Your Project Title Here
+      title: "In Focus Contest Design Contest", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "I designed a poster on Adobe Illustrator raising awareness for ocean and water pollution. ", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: infocus,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://www.worldinfocus.ca/in-focus-contest-2021",
     },
     {
-      title: "Project Six", //Project Title - Add Your Project Title Here
+      title: "Exploring Isometric Art", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "I used a combination of Google Earth, Adobe Illustrator and Adobe Photoshop to create an Isometric model of my school, St. Robert CHS.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: isometric,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://avgl.org/highschoolesports/27149/events/rules",
     },
 
     /*
@@ -113,13 +116,14 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Hey there, I’m Justin Gu. I love crafting meaningful yet elegant designs. Creating something is all about making an impact— my approach to graphic design has consistently revolved around this state-of-mind. ",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "My interest in web development began in 2017 when I learned Photoshop and started creating various side projects, and it has since then become a full-blown passion. I have won numerous graphic design competitions sponsored by companies such as Intel, MSI, AMD, and AVGL. Notably, my design has even been featured on a MSCHF billboard.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    "Fast-forwarding to my latest projects, I served as lead designer for LeRoi Robotics team 81208x, the 2021 VEX Robotics Skills Champion. As a director of the Toronto Youth Network, I launched the 6ixBits hackathon, attracting 300 participants globally. As the past president of Global Development, I have had the privilege of partnering with the University of Toronto as well as Engineers without borders, pushing forward numerous initiatives that I hope have done their part in inspiring youths like me towards careers in STEM. ",
+  aboutParaFour:
+  "Currently, I would like to work on impact-driven projects, interacting with like-minded people to expand my graphic design skill set. Through my designs, I hope to one day have an impact on the global community. ",
+  aboutImage: about,
 
   //   End About Section ---------------------
 
@@ -131,33 +135,19 @@ export default {
     {
       img: htmlIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I've been using Adobe Illustrator since 2019 and now choose to create most of my designs on it because of the various applications of vector graphics. A side effect of working on Illustrator is my efficiency in using the Pen Tool which is widely used in a variety of applications outside of Adobe Suite.",
     },
     {
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I've been using Adobe Photoshop since 2017 and now use it to create mockups and paintings. It's also an extremely powerful tool for finishing touches on my works done in Illustrator.",
     },
     {
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I've been using Adobe After Effects since 2019 and now use it to create motion graphics and animations for my vector. It has allowed me to be quite proficient in keyframe animations, a skill I found useful in CSS animations and game engines as well.",
     },
-    {
-      img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: codeIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
+
   ],
 
   // End Skills Section --------------------------
@@ -166,7 +156,7 @@ export default {
 
   promotionHeading: "Heading",
   promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
@@ -174,18 +164,14 @@ export default {
   contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/CorsaRusso" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
+      img: linkedin,
+      url: "https://www.linkedin.com/in/j-gu/",
     },
     {
       img: instagramIcon,
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/juust_juustin/",
     },
   ],
 
